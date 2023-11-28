@@ -2,15 +2,12 @@ import HoverColor from "./components/HoverColor";
 import Footer from "./components/Footer";
 import React from "react";
 import "./App.css";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <>
-      <div>
-        {" "}
-        <h1>Raumvier</h1>
-      </div>
-
+      <Navbar />
       <HoverColor />
       <Footer />
     </>

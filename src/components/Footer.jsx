@@ -12,10 +12,10 @@ import {
 
 const Footer = () => {
   return (
-    <Box>
+    <Box style={{ width: "100%" }}>
       <h1
         style={{
-          color: "green",
+          color: "#E0007C",
           textAlign: "center",
           marginTop: "10px",
         }}

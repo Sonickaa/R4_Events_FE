@@ -20,7 +20,7 @@ export const FooterContainer = styled.div`
   justify-content: center;
   max-width: 1000px;
   margin: 0 auto;
-  /* background: red; */
+  background: #111111;
 `;
 
 export const Column = styled.div`
@@ -47,7 +47,7 @@ export const FooterLink = styled.a`
   text-decoration: none;
 
   &:hover {
-    color: green;
+    color: #e0007c;
     transition: 200ms ease-in;
   }
 `;
