@@ -2,17 +2,30 @@
   box-sizing: border-box;
 }
 
-body {
+.main-colors {
+  /* background-color: #111;
+
+
+
+  height: 100vh;
+  margin: 0; */
+  /*  overflow: auto; */
+  /*   display: flex;
+  align-items: center;
+  justify-content: center;
+ */
+
   background-color: #111;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  overflow: auto;
+  min-height: 20vh; /* Ensure a minimum height */
+  overflow: auto; /* Enable scrolling when content overflows */
   margin: 0;
+  padding-top: 0px; /* Add space for the navbar */
 }
 
-.container {
+.container-colors {
   display: flex;
   align-items: center;
   justify-content: center;

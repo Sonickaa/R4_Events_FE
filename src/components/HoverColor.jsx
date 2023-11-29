@@ -37,7 +37,13 @@ const HoverColor = () => {
     }
   }, []); // Empty dependency array ensures that the code runs only once when the component mounts - aha!
 
-  return <div className="container" ref={containerRef}></div>;
+  return (
+    <>
+      <main className="main-colors">
+        <div className="container-colors" ref={containerRef}></div>;
+      </main>
+    </>
+  );
 };
 
 export default HoverColor;

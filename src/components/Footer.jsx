@@ -12,10 +12,10 @@ import {
 
 const Footer = () => {
   return (
-    <Box>
+    <Box style={{ width: "100%" }}>
       <h1
         style={{
-          color: "green",
+          color: "#E0007C",
           textAlign: "center",
           marginTop: "10px",
         }}
@@ -26,8 +26,8 @@ const Footer = () => {
         <Row>
           <Column>
             <Heading>About Us</Heading>
-            <FooterLink href="#">Aim</FooterLink>
-            <FooterLink href="#">Vision</FooterLink>
+            <FooterLink href="#">We are</FooterLink>
+            <FooterLink href="#">We would like</FooterLink>
             {/*  <FooterLink href="#">Testimonials</FooterLink> */}
           </Column>
           <Column>
