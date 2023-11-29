@@ -1,6 +1,8 @@
-import "./css/Navbar.css";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
+import Hamburger from "./Hamburger";
+import Brand from "./Brand";
+import "./css/Navbar.css";
 
 const Navbar = () => {
   const [showNavbar, setShowNavbar] = useState(false);
@@ -10,37 +12,35 @@ const Navbar = () => {
   };
 
   return (
-    <main className="main-navbar">
-      <nav className="navbar">
-        <div className="nav-container">
-          <div className="logo">
-            <img className="logo" src="./r4_logo.png" alt="logo" />
-          </div>
-          {/*  <div className="menu-icon" onClick={handleShowNavbar}>
-          <img className="menu-icon" src="/hamburger.png" alt="icon" />
-        </div> */}
-          <div className={`nav-elements  ${showNavbar && "active"}`}>
-            <ul>
-              <li>
-                <NavLink to="/">Home</NavLink>
-              </li>
-              <li>
-                <NavLink to="/blog">Blog</NavLink>
-              </li>
-              <li>
-                <NavLink to="/projects">Projects</NavLink>
-              </li>
-              <li>
-                <NavLink to="/about">About</NavLink>
-              </li>
-              <li>
-                <NavLink to="/contact">Contact</NavLink>
-              </li>
-            </ul>
-          </div>
+    <nav className="navbar">
+      <div className="container">
+        <div className="logo">
+          <Brand />
         </div>
-      </nav>
-    </main>
+        <div className="menu-icon" onClick={handleShowNavbar}>
+          <Hamburger />
+        </div>
+        <div className={`nav-elements  ${showNavbar && "active"}`}>
+          <ul>
+            <li>
+              <NavLink to="/">Home</NavLink>
+            </li>
+            <li>
+              <NavLink to="/blog">Events</NavLink>
+            </li>
+            <li>
+              <NavLink to="/projects">Shop</NavLink>
+            </li>
+            <li>
+              <NavLink to="/about">About</NavLink>
+            </li>
+            <li>
+              <NavLink to="/contact">Contact</NavLink>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   );
 };
 

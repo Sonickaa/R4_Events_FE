@@ -40,7 +40,7 @@ const HoverColor = () => {
   return (
     <>
       <main className="main-colors">
-        <div className="container" ref={containerRef}></div>;
+        <div className="container-colors" ref={containerRef}></div>;
       </main>
     </>
   );

@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-main .main-colors {
+.main-colors {
   /* background-color: #111;
 
 
@@ -19,13 +19,13 @@ main .main-colors {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh; /* Ensure a minimum height */
+  min-height: 20vh; /* Ensure a minimum height */
   overflow: auto; /* Enable scrolling when content overflows */
   margin: 0;
-  padding-top: 60px; /* Add space for the navbar */
+  padding-top: 0px; /* Add space for the navbar */
 }
 
-.container {
+.container-colors {
   display: flex;
   align-items: center;
   justify-content: center;
