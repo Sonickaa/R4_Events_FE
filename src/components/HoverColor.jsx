@@ -8,7 +8,7 @@ const HoverColor = () => {
     const container = containerRef.current;
     /*     const colors = ["#e74c3c", "#8e44ad", "#3498db", "#e67e22", "#2ecc71"]; */
     const colors = ["#00CDD1", "#09E8DE", "#00FFEF", "#F4308F", "#E0007C"];
-    const SQUARES = 500;
+    const SQUARES = 300;
 
     const setColor = (element) => {
       const color = getRandomColor();
@@ -37,7 +37,13 @@ const HoverColor = () => {
     }
   }, []); // Empty dependency array ensures that the code runs only once when the component mounts - aha!
 
-  return <div className="container" ref={containerRef}></div>;
+  return (
+    <>
+      <main className="main-colors">
+        <div className="container-colors" ref={containerRef}></div>;
+      </main>
+    </>
+  );
 };
 
 export default HoverColor;

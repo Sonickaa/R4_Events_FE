@@ -1,0 +1,57 @@
+.contact-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.contact_container {
+  /*   width: 50%; */
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+.contact_container h3 {
+  color: #e0007c;
+}
+
+.contact_container {
+  color: white;
+  background-color: black;
+}
+
+.message_field {
+  height: 100px;
+  width: 480px;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.send_button {
+  background-color: #3affff;
+  border-radius: 8px;
+  border-style: none;
+  color: #3c3c3c;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  width: 80px;
+  height: 40px;
+  margin-top: 20px;
+  padding: 10px;
+  transition: color 100ms;
+}
+
+.send_button:hover {
+  background-color: #e0007c;
+  color: black;
+}
+
+input {
+  background-color: white;
+}
+
+textarea {
+  background-color: white;
+}
