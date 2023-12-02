@@ -22,8 +22,9 @@ body {
 }
 
 .logo {
-  width: 150px;
-  height: 40px;
+  width: 20em;
+  margin-top: 0.5em;
+  /*   height: 40px; */
 }
 
 .menu-icon {
