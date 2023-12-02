@@ -32,17 +32,21 @@ export default function Contact() {
       <div className="contact-main">
         <div className="contact_container">
           <h3 className="contact">
-            Thank you for your feedback, thoughts or a little order :
+            Thank you for your feedback, thoughts or a little order.
           </h3>
           <Form ref={form} onSubmit={sendEmail}>
             <Form.Group className="mb-2" controlId="inlineFormInput">
-              <Form.Control type="text" placeholder="Name" name="user_name" />
+              <Form.Control
+                type="text"
+                placeholder="Your name"
+                name="user_name"
+              />
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Control
                 type="email"
-                placeholder="Enter email"
+                placeholder="Your email"
                 name="user_email"
               />
             </Form.Group>
@@ -51,7 +55,7 @@ export default function Contact() {
               <Form.Control
                 className="message_field"
                 as="textarea"
-                placeholder="Leave a comment here"
+                placeholder="Please write here what you would like:)"
                 name="user_subject"
               />
             </FloatingLabel>
@@ -60,6 +64,10 @@ export default function Contact() {
               Send
             </Button>
           </Form>
+          <p style={{ color: "white" }}>
+            Or come and have a chat with us in person. <br /> Once a month.
+            <br /> In the basement of Kitkat Club. <br /> We would love that.
+          </p>
         </div>
       </div>
     </>

@@ -12,7 +12,7 @@
   background-color: black;
 }
 .contact_container h3 {
-  color: #03c8c8;
+  color: #e0007c;
 }
 
 .contact_container {
@@ -29,7 +29,7 @@
 }
 
 .send_button {
-  background-color: #e0007c;
+  background-color: #3affff;
   border-radius: 8px;
   border-style: none;
   color: #3c3c3c;
@@ -44,6 +44,14 @@
 }
 
 .send_button:hover {
-  background-color: #3affff;
+  background-color: #e0007c;
   color: black;
+}
+
+input {
+  background-color: white;
+}
+
+textarea {
+  background-color: white;
 }
