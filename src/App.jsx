@@ -8,6 +8,7 @@ import Contact from "./components/Contact";
 import Shop from "./components/Shop";
 import Home from "./components/Home";
 import Awareness from "./components/Awareness";
+import Events from "./components/Events";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Routes>
         <Route path="/contact" element={<Contact />} />
         <Route path="/shop" element={<Shop />} />
+        <Route path="/events" element={<Events />} />
         <Route path="/awareness" element={<Awareness />} />
       </Routes>
       <Footer />
