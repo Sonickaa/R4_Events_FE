@@ -1,4 +1,4 @@
-import "./CSS/Contact.css";
+import "./css/Contact.css";
 import { Button, Form, FloatingLabel } from "react-bootstrap";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
