@@ -1,4 +1,4 @@
-// components/FooterStyles.js
+// components/FooterStyles.jsx
 
 import styled from "styled-components";
 
