@@ -8,7 +8,8 @@ const HoverColor = () => {
     const container = containerRef.current;
     /*     const colors = ["#e74c3c", "#8e44ad", "#3498db", "#e67e22", "#2ecc71"]; */
     const colors = ["#00CDD1", "#09E8DE", "#00FFEF", "#F4308F", "#E0007C"];
-    const SQUARES = 300;
+    const SQUARES = 100;
+    /*    const SQUARES = window.matchMedia("(min-width: 320px)").matches ? 300 : 100; */
 
     const setColor = (element) => {
       const color = getRandomColor();

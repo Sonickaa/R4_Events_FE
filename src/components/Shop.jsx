@@ -37,6 +37,11 @@ export default function Shop() {
           Example: <br /> Type: (short or long?) <br /> Size: (S or M or L or
           XL?) <br /> How many: (1 or 2 or 3...)
         </p>
+        <h3 className="design">
+          Design is made by lovely Caro (www.pazcarolina.com) <br />{" "}
+          Hand-printed in fieldink_studio, Berlin. <br /> Thank you for these
+          beauties!
+        </h3>
       </div>
     </>
   );

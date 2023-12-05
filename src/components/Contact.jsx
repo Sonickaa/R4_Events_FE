@@ -64,11 +64,11 @@ export default function Contact() {
               Send
             </Button>
           </Form>
-          <p style={{ color: "white" }}>
+          <h4 style={{ color: "white" }}>
             Or come and have a chat with us in person. <br /> Once a month. Next
             28.12. <br /> <br /> Or always third Thursday in the month.
             <br /> In the basement of Kitkat Club. <br /> We would love that.
-          </p>
+          </h4>
         </div>
       </div>
     </>
