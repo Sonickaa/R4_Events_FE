@@ -28,7 +28,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 1000px; /* Set a maximum width for the container */
+  max-width: 90%; /* Set a maximum width for the container */
   width: 100%; /* Ensure container takes full width on smaller screens */
   padding: 20px; /* Add padding for better spacing */
 }
