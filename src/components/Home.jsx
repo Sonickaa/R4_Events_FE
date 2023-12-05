@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <HoverColor />
       <div className="video">
-        <video width="800" height="600" controls>
+        <video /* width="600" height="400" */ controls>
           <source src="R4-video.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>

@@ -1,6 +1,7 @@
 .event-container {
   max-width: 80%;
-  margin: 0 auto; /* Center the container horizontally */
+  /*  margin: 0 auto;  */ /* Center the container horizontally */
+  margin-left: 4em;
   height: 100%; /* Set the height to 100% of the viewport height */
   display: flex;
   flex-direction: column; /* Stack child elements vertically */
@@ -9,4 +10,5 @@
 }
 
 .event-images {
+  margin-left: 4em;
 }
