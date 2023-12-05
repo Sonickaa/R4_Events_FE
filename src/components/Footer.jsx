@@ -27,7 +27,7 @@ const Footer = () => {
           <Column>
             <Heading>About Us</Heading>
             <FooterLink href="/awareness">We are</FooterLink>
-            <FooterLink href="/shop">We would like</FooterLink>
+            <FooterLink href="/shop">New T-shirts!</FooterLink>
             {/*  <FooterLink href="#">Testimonials</FooterLink> */}
           </Column>
           <Column>

@@ -9,10 +9,11 @@ export default function Awareness() {
       }}
     >
       {" "}
-      <p
+      <h4
         style={{
           color: "white",
-          width: "40%",
+          width: "70%",
+          margin: "2em",
         }}
       >
         We're an open and tolerant place. <br /> No homophobia, no transphobia,
@@ -23,7 +24,7 @@ export default function Awareness() {
         Consent is sexy. <br /> Communicate clearly, get a clear yes, give a
         clear no. If somebody doesn't understand these simple words, let us
         know. <br /> Look after each other and have fun!
-      </p>
+      </h4>
     </div>
   );
 }

@@ -4,10 +4,10 @@ export default function Events() {
   return (
     <>
       <div className="event-container">
-        <h4 style={{ color: "white" }}>
+        <h3 style={{ color: "#E0007C" }}>
           Photos by dearest Althea, taken on her Polaroid cameras during our
           events:{" "}
-        </h4>
+        </h3>
         <div className="event-images">
           <img src="\Scansione 1.jpg" alt="polaroid-photo" />
           <img src="\Scansione 2.jpg" alt="polaroid-photo" />
@@ -19,17 +19,24 @@ export default function Events() {
           <img src="\Scansione 24.jpg" alt="polaroid-photo" />
           <img src="\Scansione 55.jpg" alt="polaroid-photo" />
         </div>
-        <h4 style={{ color: "white" }}>
+        <h3 style={{ color: "#09E8DE" }}>
           Posters and flyers from our past events, made by dearest Carolina,
           Vince or us:
-        </h4>
+        </h3>
         <div className="event-images">
+          <img src="\flyer front.jpg" alt="public" />
           <img src="\fuckoff.jpg" alt="poster" />
           <img src="\tasse2022.jpg" alt="poster" />
           <img src="\3x2.jpg" alt="poster" />
           <img src="\vertical-IG-june.jpg" alt="poster" />
+          <img src="\klappe.jpg" alt="public" />
+          <img src="\alien.jpg" alt="poster" />
           <img src="\IMG_1766.JPG" alt="poster" />
           <img src="\plakat print.jpg" alt="poster" />
+          <img src="\r4-lila.jpg" alt="poster" />
+          <img src="\story.jpg" alt="poster" />
+          <img src="\wheel1.jpg" alt="public" />
+          <img src="\wheel2.jpg" alt="poster" />
         </div>
       </div>
     </>
