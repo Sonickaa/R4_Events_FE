@@ -3,31 +3,48 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 2em;
+  margin-left: 10em;
+  width: auto;
 }
 
 img {
-  width: 35em;
+  width: 30em;
   margin-left: 2em;
 }
 
 .sizes {
   color: #09e8de;
+  width: 70%;
 }
 
+.sizes1 {
+  color: #09e8de;
+}
+
+.sizes2 {
+  color: #09e8de;
+  margin-left: 6em;
+}
 .shop-headings {
   color: #f4308f;
-  margin-left: 2em;
+  margin-left: 7em;
+  width: auto;
 }
 
 .short-sleave {
   margin: 2em;
-  margin-left: 4em;
+  margin-left: 6em;
+  width: auto;
 }
 
 .long-sleave {
   margin: 2em;
-  margin-left: 4em;
+  margin-left: 6em;
+  width: auto;
+}
+
+.long-sleave img {
+  margin-left: 2em;
 }
 
 .shop-order {
@@ -58,6 +75,9 @@ img {
 .wish {
   color: #f4308f;
   width: auto;
+}
+.wish1 {
+  color: #09e8de;
 }
 
 .design {
