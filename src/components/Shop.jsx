@@ -59,7 +59,7 @@ export default function Shop() {
         </div>
       </div>
       <div className="order-how">
-        <p>
+        <p className="how1">
           Example: <br /> Type: (short or long?) <br /> Size: (S or M or L or
           XL?) <br /> How many: (1 or 2 or 3...) <br /> Pick up or send? Let us
           know!

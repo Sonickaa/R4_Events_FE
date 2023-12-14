@@ -17,6 +17,7 @@ img {
 
 .shop-headings {
   color: #f4308f;
+  margin-left: 2em;
 }
 
 .short-sleave {
@@ -46,6 +47,12 @@ img {
   justify-content: center;
   text-align: center;
   margin-left: 4em;
+}
+
+.how1 {
+  text-align: left;
+  margin: 0 auto;
+  max-width: 300px;
 }
 
 .wish {

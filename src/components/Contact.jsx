@@ -32,7 +32,7 @@ export default function Contact() {
       <div className="contact-main">
         <div className="contact_container">
           <h3 className="contact">
-            Thank you for your feedback, thoughts or a little order.
+            Thank you for your order or feedback, thoughts.
           </h3>
           <Form ref={form} onSubmit={sendEmail}>
             <Form.Group className="mb-2" controlId="inlineFormInput">
@@ -64,9 +64,9 @@ export default function Contact() {
               Send
             </Button>
           </Form>
-          <h4 style={{ color: "white" }}>
-            Or come and have a chat with us in person. <br /> Once a month. Next
-            28.12. <br /> <br /> Or always third Thursday in the month.
+          <h4 className="contact-buttom">
+            Or come and have a chat with us in person. <br /> Next 28.12. <br />{" "}
+            <br />
             <br /> In the basement of Kitkat Club. <br /> We would love that.
           </h4>
         </div>

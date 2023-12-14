@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <HoverColor />
 
-      <h1>Your sexy, friendly, techno & fetish encounter </h1>
+      <h1 className="sexy">Your sexy, friendly, techno & fetish encounter </h1>
       <h3>
         {" "}
         <NavLink className="link" to="/Shop">
