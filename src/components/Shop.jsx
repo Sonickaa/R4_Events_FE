@@ -8,19 +8,45 @@ export default function Shop() {
         <div className="shop-headings">
           <div className="short-sleave">
             <h2>T-Shirt Short Sleave</h2>
-            <p className="sizes"> Sizes: S, M, L, XL</p>
+            <p className="sizes">
+              {" "}
+              Sizes: L - can work as a dress. Smiling models are 180 and 195cm
+              tall{" "}
+            </p>
             <div className="short-image">
-              <img src="\Scansione 3.jpg" alt="" />
-              <img src="\Scansione 6.jpg" alt="" />
+              <img src="\T-shirts\L-Short2__.png" alt="L" />
+              <img src="\T-shirts\L-Short0__.png" alt="L" />
+              <p className="sizes"> Sizes: XL - can totally work as a dress</p>
+              <img src="\T-shirts\XL-Short__.png" alt="XL" />
+              <img src="\T-shirts\XL-Short1__.png" alt="XL" />
             </div>
           </div>
           <div className="long-sleave">
             <h2>T-Shirt Long Sleave</h2>
-            <p className="sizes">Sizes: S, M, L, XL</p>
-            <div className="long-image">
-              <img src="\Scansione 7.jpg" alt="" />
-              <img src="\Scansione 18.jpg" alt="" />
-            </div>
+
+            <p className="sizes">Sizes: S</p>
+            <img src="\T-shirts\S-Long__.png" alt="S" />
+            <img src="\T-shirts\S-Long2__.png" alt="S" />
+
+            <p className="sizes">Sizes: M</p>
+            <img src="\T-shirts\M-Long__.png" alt="M" />
+            <img src="\T-shirts\M-Long2__.png" alt="M" />
+            <p className="sizes">Sizes: L</p>
+            {/*  <img src="\T-shirts\L-Long__.png" alt="L" /> */}
+            <img src="\T-shirts\L-Long2__.png" alt="L" />
+            <img src="\T-shirts\L-Long3__.png" alt="L" />
+
+            <p className="sizes">Sizes: XL</p>
+            <img src="\T-shirts\XL-Long__.png" alt="XL" />
+            <img src="\T-shirts\XL-Long2__.png" alt="XL" />
+
+            <p className="sizes">Sizes: left-L, right-XL</p>
+            <img src="\T-shirts\L+XL__.png" alt="L+XL" />
+            <img src="\T-shirts\L+XL2__.png" alt="L+XL" />
+
+            <p className="sizes">Sizes: left-XL, right-L</p>
+            <img src="\T-shirts\XL+L__.png" alt="XL+L" />
+            <img src="\T-shirts\XL+L2__.png" alt="XL+L" />
           </div>
         </div>
       </div>
@@ -33,9 +59,10 @@ export default function Shop() {
         </div>
       </div>
       <div className="order-how">
-        <p>
+        <p className="how1">
           Example: <br /> Type: (short or long?) <br /> Size: (S or M or L or
-          XL?) <br /> How many: (1 or 2 or 3...)
+          XL?) <br /> How many: (1 or 2 or 3...) <br /> Pick up or send? Let us
+          know!
         </p>
         <h3 className="design">
           Design is made by lovely Caro (www.pazcarolina.com) <br />{" "}

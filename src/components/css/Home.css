@@ -4,3 +4,30 @@
   justify-content: center;
   align-self: center;
 }
+h1 {
+  color: #09e8de;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em;
+}
+
+.link {
+  border: 2px solid white;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.link:hover {
+  color: #e0007c;
+  transition: 200ms ease-in;
+}
+
+.sexy {
+}

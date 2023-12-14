@@ -1,0 +1,22 @@
+.awareness-container {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  align-items: center;
+}
+
+h4 {
+  color: white;
+  width: 70%;
+  margin: 2em;
+}
+
+.video-container {
+  display: block;
+  justify-content: space-around;
+  align-items: center;
+}
+
+video {
+  margin: 4em;
+}
