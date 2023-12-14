@@ -4,3 +4,19 @@
   justify-content: center;
   align-self: center;
 }
+h1 {
+  color: #09e8de;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em;
+}
+
+.link {
+}

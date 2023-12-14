@@ -3,11 +3,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 2em;
 }
 
 img {
-  width: 25em;
-  margin-right: 1em;
+  width: 35em;
+  margin-left: 2em;
 }
 
 .sizes {
@@ -49,6 +50,7 @@ img {
 
 .wish {
   color: #f4308f;
+  width: auto;
 }
 
 .design {
