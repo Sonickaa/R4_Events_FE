@@ -1,56 +1,45 @@
 .shop-container {
   margin: 1em;
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
-  margin-left: 10em;
-  width: auto;
+  text-align: center;
 }
 
-img {
-  width: 30em;
-  margin-left: 2em;
-}
-
-.sizes {
-  color: #09e8de;
-  width: 70%;
-}
-
-.sizes1 {
-  color: #09e8de;
-}
-
-.sizes2 {
-  color: #09e8de;
-  margin-left: 6em;
-}
-.shop-headings {
+.shop-content {
   color: #f4308f;
-
-  width: auto;
+  width: 100%;
 }
 
 .short-sleave {
   margin: 2em;
   margin-left: 6em;
-  width: auto;
+  width: 100%;
 }
 
 .long-sleave {
   margin: 2em;
-  margin-left: 6em;
-  width: auto;
+  width: 100%;
+  margin-left: 0em;
 }
 
-.long-sleave img {
-  margin-left: 2em;
+img {
+  width: 100%; /* Default setting for all screen sizes */
+
+  /* Media query for screens with a minimum width of, for example, 768 pixels */
+  @media (min-width: 768px) {
+    width: 50%; /* Set the width to 50% on larger screens */
+  }
+}
+
+p {
+  color: #09e8de;
 }
 
 .shop-order {
   color: #09e8de;
   margin: 1em;
-  margin-left: 4em;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,21 +52,17 @@ img {
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-left: 4em;
-}
-
-.how1 {
-  text-align: left;
-  margin: 0 auto;
-  max-width: 300px;
+  border: 2px solid white;
+  padding: 8px;
+  display: inline-block;
 }
 
 .wish {
   color: #f4308f;
   width: auto;
-}
-.wish1 {
-  color: #09e8de;
+  border: 2px solid #f4308f;
+  padding: 8px;
+  display: inline-block;
 }
 
 .design {

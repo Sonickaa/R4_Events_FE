@@ -19,7 +19,7 @@ h3 {
 }
 
 .link {
-  border: 2px solid white;
+  border: 2px solid #e0007c;
   padding: 1em;
   border-radius: 10px;
 }
@@ -31,4 +31,10 @@ h3 {
 
 .sexy {
   width: auto;
+}
+
+.home-pic {
+  display: block;
+  margin: auto;
+  margin-top: 1em;
 }

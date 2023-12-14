@@ -5,12 +5,12 @@ import { NavLink } from "react-router-dom";
 export default function Home() {
   return (
     <>
-      <HoverColor />
+      <img className="home-pic" src="\T-shirts\tasse2022.jpg" alt="home" />
 
       <h1 className="sexy">Your sexy, friendly, techno & fetish encounter </h1>
       <h3>
         {" "}
-        <NavLink className="link" to="/Shop">
+        <NavLink className="link" to="/shop">
           {" "}
           T-Shirts
         </NavLink>
