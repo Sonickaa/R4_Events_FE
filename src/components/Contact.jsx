@@ -32,7 +32,7 @@ export default function Contact() {
       <div className="contact-main">
         <div className="contact_container">
           <h3 className="contact">
-            Thank you for your order or feedback, thoughts.
+            Thank you for your order or feedback, thoughts...
           </h3>
           <Form ref={form} onSubmit={sendEmail}>
             <Form.Group className="mb-2" controlId="inlineFormInput">
