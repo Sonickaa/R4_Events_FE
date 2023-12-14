@@ -17,11 +17,14 @@ export default function Shop() {
           <div className="short-image">
             <img src="\T-shirts\L-Short2__.png" alt="L" />
             <img src="\T-shirts\L-Short0__.png" alt="L" />
-            <p className="sizes1"> Sizes: XL - can totally work as a dress</p>
+            <p className="sizes2"> Sizes: XL - can totally work as a dress</p>
             <img src="\T-shirts\XL-Short__.png" alt="XL" />
             <img src="\T-shirts\XL-Short1__.png" alt="XL" />
           </div>
-
+          <h3 className="wish1">
+            You can order some here: here:{" "}
+            <Link to="/contact"> Contact Form</Link>
+          </h3>
           <div className="long-sleave">
             <h2>T-Shirt Long Sleave</h2>
 
