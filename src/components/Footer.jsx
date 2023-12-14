@@ -16,8 +16,9 @@ const Footer = () => {
       <h1
         style={{
           color: "#E0007C",
-          textAlign: "center",
+          textAlign: "left",
           marginTop: "10px",
+          width: "auto",
         }}
       >
         See you on the dancefloor!
