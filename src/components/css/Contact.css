@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   background-color: black;
+  width: auto;
 }
 
 .contact_container {
@@ -10,7 +11,7 @@
   text-align: center;
   color: white;
   background-color: black;
-  margin-left: 4em;
+  margin-left: 2em;
 }
 .contact_container h3 {
   color: #e0007c;
@@ -53,8 +54,10 @@ input {
   background-color: white;
 }
 
-textarea {
+.message_field {
   background-color: white;
+  margin-left: 2em;
+  width: 90%;
 }
 
 .contact-buttom {

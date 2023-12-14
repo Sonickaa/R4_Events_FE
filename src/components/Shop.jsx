@@ -13,49 +13,50 @@ export default function Shop() {
               Sizes: L - can work as a dress. Smiling models are 180 and 195cm
               tall{" "}
             </p>
-            <div className="short-image">
-              <img src="\T-shirts\L-Short2__.png" alt="L" />
-              <img src="\T-shirts\L-Short0__.png" alt="L" />
-              <p className="sizes"> Sizes: XL - can totally work as a dress</p>
-              <img src="\T-shirts\XL-Short__.png" alt="XL" />
-              <img src="\T-shirts\XL-Short1__.png" alt="XL" />
-            </div>
           </div>
+          <div className="short-image">
+            <img src="\T-shirts\L-Short2__.png" alt="L" />
+            <img src="\T-shirts\L-Short0__.png" alt="L" />
+            <p className="sizes1"> Sizes: XL - can totally work as a dress</p>
+            <img src="\T-shirts\XL-Short__.png" alt="XL" />
+            <img src="\T-shirts\XL-Short1__.png" alt="XL" />
+          </div>
+
           <div className="long-sleave">
             <h2>T-Shirt Long Sleave</h2>
 
-            <p className="sizes">Sizes: S</p>
-            <img src="\T-shirts\S-Long__.png" alt="S" />
-            <img src="\T-shirts\S-Long2__.png" alt="S" />
-
-            <p className="sizes">Sizes: M</p>
-            <img src="\T-shirts\M-Long__.png" alt="M" />
-            <img src="\T-shirts\M-Long2__.png" alt="M" />
-            <p className="sizes">Sizes: L</p>
-            {/*  <img src="\T-shirts\L-Long__.png" alt="L" /> */}
-            <img src="\T-shirts\L-Long2__.png" alt="L" />
-            <img src="\T-shirts\L-Long3__.png" alt="L" />
-
-            <p className="sizes">Sizes: XL</p>
-            <img src="\T-shirts\XL-Long__.png" alt="XL" />
-            <img src="\T-shirts\XL-Long2__.png" alt="XL" />
-
-            <p className="sizes">Sizes: left-L, right-XL</p>
-            <img src="\T-shirts\L+XL__.png" alt="L+XL" />
-            <img src="\T-shirts\L+XL2__.png" alt="L+XL" />
-
-            <p className="sizes">Sizes: left-XL, right-L</p>
-            <img src="\T-shirts\XL+L__.png" alt="XL+L" />
-            <img src="\T-shirts\XL+L2__.png" alt="XL+L" />
+            <p className="sizes1">Sizes: S</p>
           </div>
+          <img src="\T-shirts\S-Long__.png" alt="S" />
+          <img src="\T-shirts\S-Long2__.png" alt="S" />
+
+          <p className="sizes2">Sizes: M</p>
+          <img src="\T-shirts\M-Long__.png" alt="M" />
+          <img src="\T-shirts\M-Long2__.png" alt="M" />
+          <p className="sizes2">Sizes: L</p>
+          {/*  <img src="\T-shirts\L-Long__.png" alt="L" /> */}
+          <img src="\T-shirts\L-Long2__.png" alt="L" />
+          <img src="\T-shirts\L-Long3__.png" alt="L" />
+
+          <p className="sizes2">Sizes: XL</p>
+          <img src="\T-shirts\XL-Long__.png" alt="XL" />
+          <img src="\T-shirts\XL-Long2__.png" alt="XL" />
+
+          <p className="sizes2">Sizes: left-L, right-XL</p>
+          <img src="\T-shirts\L+XL__.png" alt="L+XL" />
+          <img src="\T-shirts\L+XL2__.png" alt="L+XL" />
+
+          <p className="sizes2">Sizes: left-XL, right-L</p>
+          <img src="\T-shirts\XL+L__.png" alt="XL+L" />
+          <img src="\T-shirts\XL+L2__.png" alt="XL+L" />
         </div>
       </div>
       <div className="shop-order">
         <div className="order-heading">
           <h2>Would you like one or two? More?</h2>
-          <h4 className="wish">
-            Send us your wishes here: <Link to="/contact">Contact Form</Link>
-          </h4>
+          <h3 className="wish">
+            Send us your wishes here: <Link to="/contact"> Contact Form</Link>
+          </h3>
         </div>
       </div>
       <div className="order-how">
