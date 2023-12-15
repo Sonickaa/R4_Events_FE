@@ -4,10 +4,12 @@ export default function Events() {
   return (
     <>
       <div className="event-container">
-        <h3 style={{ color: "#E0007C" }}>
-          Photos by dearest Althea, taken on her Polaroid cameras during our
-          events:{" "}
-        </h3>
+        <div className="event-heading">
+          <h3 style={{ color: "#E0007C" }}>
+            Photos by dearest Althea, taken on her Polaroid cameras during our
+            events:{" "}
+          </h3>
+        </div>
         <div className="event-images">
           <img src="\Scansione 1.jpg" alt="polaroid-photo" />
           <img src="\Scansione 2.jpg" alt="polaroid-photo" />
@@ -19,14 +21,17 @@ export default function Events() {
           <img src="\Scansione 24.jpg" alt="polaroid-photo" />
           <img src="\Scansione 55.jpg" alt="polaroid-photo" />
         </div>
-        <h3 style={{ color: "#09E8DE" }}>
-          Posters and flyers from our past events, made by dearest Carolina,
-          Vince or us:
-        </h3>
+        <div className="event-heading">
+          <h3 style={{ color: "#09E8DE" }}>
+            Posters and flyers from our past events, made by dearest Carolina,
+            Vince or us:
+          </h3>
+        </div>
         <div className="event-images">
+          <img src="\raumvier-dec-FB-event.png" alt="next" />
           <img src="\flyer front.jpg" alt="public" />
           <img src="\fuckoff.jpg" alt="poster" />
-          <img src="\tasse2022.jpg" alt="poster" />
+
           <img src="\3x2.jpg" alt="poster" />
           <img src="\vertical-IG-june.jpg" alt="poster" />
           <img src="\klappe.jpg" alt="public" />
