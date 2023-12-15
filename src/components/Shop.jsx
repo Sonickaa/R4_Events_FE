@@ -43,7 +43,7 @@ export default function Shop() {
             <img src="\T-shirts\XL+L2__.png" alt="XL+L" />
           </div>
         </div>
-
+        <p className="price"> (Long = 35,- Short = 30,-)</p>
         <div className="shop-order">
           <div className="order-heading">
             <h2>Would you like one or two? More?</h2>
