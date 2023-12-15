@@ -1,14 +1,20 @@
 .event-container {
-  max-width: 80%;
-  /*  margin: 0 auto;  */ /* Center the container horizontally */
-  margin-left: 4em;
-  height: 100%; /* Set the height to 100% of the viewport height */
   display: flex;
   flex-direction: column; /* Stack child elements vertically */
   justify-content: center; /* Center the content vertically */
   align-items: center; /* Center the content horizontally */
 }
 
+.event-heading {
+  text-align: left;
+  width: 100%;
+}
+
 .event-images {
-  margin-left: 4em;
+  width: 100%; /* Default setting for all screen sizes */
+
+  /* Media query for screens with a minimum width of, for example, 768 pixels */
+  @media (min-width: 768px) {
+    width: 50%; /* Set the width to 50% on larger screens */
+  }
 }

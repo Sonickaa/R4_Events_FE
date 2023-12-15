@@ -1,4 +1,5 @@
 import "./css/Awareness.css";
+import HoverColor from "./HoverColor";
 
 export default function Awareness() {
   return (
@@ -24,6 +25,7 @@ export default function Awareness() {
           <source src="r4-video2.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
+        <HoverColor />
       </div>
     </>
   );

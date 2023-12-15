@@ -1,4 +1,3 @@
-import HoverColor from "./HoverColor";
 import "./css/Home.css";
 import { NavLink } from "react-router-dom";
 
@@ -15,6 +14,7 @@ export default function Home() {
           T-Shirts
         </NavLink>
       </h3>
+      <img className="home-pic" src="\raumvier-dec-FB-event.png" alt="next" />
     </>
   );
 }

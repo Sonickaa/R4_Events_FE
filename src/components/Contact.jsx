@@ -65,9 +65,10 @@ export default function Contact() {
             </Button>
           </Form>
           <h4 className="contact-buttom">
-            Or come and have a chat with us in person. <br /> Next 28.12. <br />{" "}
-            <br />
-            <br /> In the basement of Kitkat Club. <br /> We would love that.
+            Or come and have a chat with us in person. <br /> We would love
+            that. <br />
+            <br /> Next opportunity is on 28.12. <br /> <br />
+            <br /> In the basement of Kitkat.
           </h4>
         </div>
       </div>
