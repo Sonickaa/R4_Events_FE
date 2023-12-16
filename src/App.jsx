@@ -10,6 +10,7 @@ import Shop from "./components/Shop";
 import Home from "./components/Home";
 import Awareness from "./components/Awareness";
 import Events from "./components/Events";
+import Impressum from "./components/Impressum";
 
 function App() {
   /*  let slides = [
@@ -33,6 +34,7 @@ function App() {
         <Route path="/shop" element={<Shop />} />
         <Route path="/events" element={<Events />} />
         <Route path="/awareness" element={<Awareness />} />
+        <Route path="/impressum" element={<Impressum />} />
       </Routes>
       <Footer />
     </>
