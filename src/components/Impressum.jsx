@@ -1,10 +1,35 @@
 import "./css/Impressum.css";
+import { FooterLink } from "./FooterStyles";
 
 export default function Impressum() {
   return (
     <>
       <div className="impressum">
         <h3>IMPRESSUM ANGABEN GEMÄSS § 5 TMG</h3>
+        <FooterLink href="https://www.facebook.com/raumvier2020/">
+          <i className="fab fa-youtube">
+            <span
+              style={{
+                marginLeft: "10px",
+              }}
+            >
+              Facebook
+            </span>
+          </i>
+        </FooterLink>
+        <FooterLink href="https://www.instagram.com/raumvier/">
+          <i className="fab fa-facebook-f">
+            <span
+              style={{
+                marginLeft: "10px",
+              }}
+            >
+              Instagram
+            </span>
+          </i>
+        </FooterLink>
+        <br />
+        <br />
         <p>Julian Voss, Raumvier Events </p>
         <p>Liegnitzerstr.34, 10999 Berlin</p>
         <p>VAT: DE356318538</p>
