@@ -43,7 +43,7 @@ export default function Shop() {
             <img src="\T-shirts\XL+L2__.png" alt="XL+L" />
           </div>
         </div>
-        <p className="price"> (Long = 35,- Short = 30,-)</p>
+        <p className="price"> (30,- or shipped for 35,-)</p>
         <div className="shop-order">
           <div className="order-heading">
             <h2>Would you like one or two? More?</h2>
@@ -61,7 +61,15 @@ export default function Shop() {
               Hand-printed in fieldink_studio, Berlin. <br /> Thank you for
               these beauties!
             </h3>
+            <h3 className="etsy">
+              Or click-{" "}
+              <Link to="https://www.etsy.com/de-en/listing/1626984778/fetish-latex-design-shirts?click_key=73c71f67ee0dbc0d7c0261bdb88c5b7ac543c926%3A1626984778&click_sum=4ed0c611&ref=shop_home_active_1&frs=1">
+                HERE
+              </Link>{" "}
+              -and get yours shipped via Etsy!
+            </h3>
           </div>
+          <div></div>
         </div>
       </div>
     </>

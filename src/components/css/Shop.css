@@ -75,3 +75,13 @@ p {
   padding: 8px; /* Adjust the padding as needed */
   border: 2px solid #09e8de; /* Border color and width */
 }
+
+.etsy {
+  color: #09e8de;
+  padding: 8px; /* Adjust the padding as needed */
+  border: 2px solid #f4308f; /* Border color and width */
+}
+
+.etsy-link {
+  color: #09e8de;
+}
