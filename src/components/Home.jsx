@@ -14,7 +14,7 @@ export default function Home() {
           T-Shirts
         </NavLink>
       </h3>
-      <img className="home-pic" src="\raumvier-dec-FB-event.png" alt="next" />
+      <img className="home-pic" src="/raumvier-oct-FB-3.png" alt="next" />
     </>
   );
 }
