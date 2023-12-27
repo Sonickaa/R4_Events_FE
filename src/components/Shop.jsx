@@ -7,7 +7,7 @@ export default function Shop() {
       <div className="shop-container">
         <div className="shop-content">
           <div className="short-sleavee">
-            <h2>T-Shirt Short Sleave</h2>
+            <h2>T-Shirt Short Sleeve</h2>
             <p>
               {" "}
               Size L - can work as a dress. <br /> Smiling models are 180 and
@@ -23,7 +23,7 @@ export default function Shop() {
           </div>
 
           <div className="long-sleave">
-            <h2>T-Shirt Long Sleave</h2>
+            <h2>T-Shirt Long Sleeve</h2>
 
             <p>Sizes: S</p>
           </div>
