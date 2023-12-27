@@ -28,7 +28,6 @@ export default function Events() {
           </h3>
         </div>
         <div className="event-images">
-          <img src="\raumvier-dec-FB-event.png" alt="next" />
           <img src="\flyer front.jpg" alt="public" />
           <img src="\fuckoff.jpg" alt="poster" />
 
