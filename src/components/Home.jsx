@@ -6,7 +6,10 @@ export default function Home() {
     <>
       <img className="home-pic" src="\T-shirts\tasse2022.jpg" alt="home" />
 
-      <h1 className="sexy">Your sexy, friendly, techno & fetish encounter </h1>
+      <h1 className="sexy">
+        Your sexy, friendly, techno & fetish underground. <br /> Come to us
+        through the Left side entrance.{" "}
+      </h1>
       <h3>
         {" "}
         <NavLink className="link" to="/shop">
@@ -14,7 +17,7 @@ export default function Home() {
           T-Shirts
         </NavLink>
       </h3>
-      <img className="home-pic" src="/raumvier-oct-FB-3.png" alt="next" />
+      <img className="home-pic" src="event-cover.png" alt="next" />
     </>
   );
 }
