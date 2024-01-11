@@ -12,9 +12,9 @@ export default function Home() {
       </h1>
       <h3>
         {" "}
-        <NavLink className="link" to="/shop">
+        <NavLink className="link" to="/notification">
           {" "}
-          T-Shirts
+          WE NEED YOU!
         </NavLink>
       </h3>
       <img className="home-pic" src="event-cover.png" alt="next" />
