@@ -67,8 +67,8 @@ export default function Contact() {
           <h4 className="contact-buttom">
             Or come and have a chat with us in person. <br /> We would love
             that. <br />
-            <br /> Next opportunity is on 28.12. <br /> <br />
-            <br /> In the basement of Kitkat.
+            <br /> Next opportunity is on 18.1. or 15.2. Kitkat - <br /> LEFT
+            entrance, just next to main.
           </h4>
         </div>
       </div>
