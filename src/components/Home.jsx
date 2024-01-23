@@ -17,7 +17,7 @@ export default function Home() {
           WE NEED YOU!
         </NavLink>
       </h3>
-      <img className="home-pic" src="februar square.png" alt="next" />
+      <img className="home-pic" src="Untitled-1.png" alt="next" />
     </>
   );
 }
