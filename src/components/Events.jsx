@@ -28,9 +28,9 @@ export default function Events() {
           </h3>
         </div>
         <div className="event-images">
+          <img src="\event-cover.png" alt="flyer" />
           <img src="\flyer front.jpg" alt="public" />
           <img src="\fuckoff.jpg" alt="poster" />
-
           <img src="\3x2.jpg" alt="poster" />
           <img src="\vertical-IG-june.jpg" alt="poster" />
           <img src="\klappe.jpg" alt="public" />
