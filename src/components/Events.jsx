@@ -11,6 +11,7 @@ export default function Events() {
           </h3>
         </div>
         <div className="event-images">
+          <img className="home-pic" src="Untitled-1.png" alt="next" />
           <img src="\Scansione 1.jpg" alt="polaroid-photo" />
           <img src="\Scansione 2.jpg" alt="polaroid-photo" />
           <img src="\Scansione 5.jpg" alt="polaroid-photo" />
