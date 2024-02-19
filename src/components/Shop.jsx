@@ -46,9 +46,13 @@ export default function Shop() {
 
         <div className="shop-order">
           <div className="order-heading">
-            <h2>Would you like one or two? More?</h2>
+            <h2>
+              Would you like one or two? More? <br /> Thank you for your
+              support!
+            </h2>
             <h3 className="wish">
-              Send us your wishes here: <Link to="/contact"> Contact Form</Link>
+              Please send us your wishes here:{" "}
+              <Link to="/contact"> Contact Form</Link>
             </h3>
             <p className="order-how">
               Example: <br /> Type: (short or long?) <br /> Size: (S or M or L
@@ -61,14 +65,14 @@ export default function Shop() {
               Hand-printed in fieldink_studio, Berlin. <br /> Thank you for
               these beauties!
             </h3>
-            <h3 className="etsy">
+            {/* <h3 className="etsy">
               Or click-{" "}
               <Link to="https://www.etsy.com/de-en/listing/1626984778/fetish-latex-design-shirts?click_key=73c71f67ee0dbc0d7c0261bdb88c5b7ac543c926%3A1626984778&click_sum=4ed0c611&ref=shop_home_active_1&frs=1">
                 HERE
               </Link>{" "}
               -and get yours shipped to you via Etsy - price is 35,-, shipping
               included!
-            </h3>
+            </h3> */}
           </div>
           <div></div>
         </div>
