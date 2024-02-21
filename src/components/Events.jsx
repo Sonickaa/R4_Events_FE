@@ -4,14 +4,21 @@ export default function Events() {
   return (
     <>
       <div className="event-container">
+        <span className="althea">
+          <h3 className="althea">
+            After closing one chapter of four years in the basement of Kitkat
+            Club, we are excited to enter new dimensions of OHM Club, with
+            beloved friends from Vumantra label and our best resident djs.{" "}
+          </h3>
+          <img className="home-pic" src="OHM.jpg" alt="next" />
+        </span>
         <div className="event-heading">
-          <h3 style={{ color: "#E0007C" }}>
+          <h3>
             Photos by dearest Althea, taken on her Polaroid cameras during our
             events:{" "}
           </h3>
         </div>
         <div className="event-images">
-          <img className="home-pic" src="Untitled-1.png" alt="next" />
           <img src="\Scansione 1.jpg" alt="polaroid-photo" />
           <img src="\Scansione 2.jpg" alt="polaroid-photo" />
           <img src="\Scansione 5.jpg" alt="polaroid-photo" />
@@ -29,6 +36,7 @@ export default function Events() {
           </h3>
         </div>
         <div className="event-images">
+          <img className="home-pic" src="Untitled-1.png" alt="next" />
           <img src="\event-cover.png" alt="flyer" />
           <img src="\flyer front.jpg" alt="public" />
           <img src="\fuckoff.jpg" alt="poster" />

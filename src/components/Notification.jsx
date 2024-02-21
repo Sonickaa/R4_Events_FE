@@ -3,7 +3,10 @@ import "./css/Notification.css";
 export default function Notification() {
   return (
     <div className="need">
-      <h3>WE NEED YOU!</h3>
+      <h3>
+        Letter to you from December 2023, or How we ended our four years journey
+        in the KitKat Club:
+      </h3>
       <p className="double-break">
         Dear Raumvier friends, <br /> <br />
         We come to you with very distressing news. <br /> As you know, we are a
