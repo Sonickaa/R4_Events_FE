@@ -32,7 +32,7 @@ export default function Contact() {
       <div className="contact-main">
         <div className="contact_container">
           <h3 className="contact">
-            Thank you for your order or feedback, thoughts...
+            Thank you for your order or feedback, your thoughts...
           </h3>
           <Form ref={form} onSubmit={sendEmail}>
             <Form.Group className="mb-2" controlId="inlineFormInput">
@@ -65,10 +65,7 @@ export default function Contact() {
             </Button>
           </Form>
           <h4 className="contact-buttom">
-            Or come and have a chat with us in person. <br /> We would love
-            that. <br />
-            <br /> Next opportunity is on 18.1. or 15.2. Kitkat - <br /> LEFT
-            entrance, just next to main.
+            Or come and have a chat with us in person. We would love that.
           </h4>
         </div>
       </div>

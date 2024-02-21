@@ -6,8 +6,16 @@
 }
 
 .event-heading {
-  text-align: left;
+  display: flex;
+  justify-content: center;
   width: 100%;
+}
+
+.althea {
+  color: #09e8de;
+  display: flex;
+  justify-content: center;
+  width: 80%;
 }
 
 .event-images {
