@@ -5,7 +5,7 @@ export default function Events() {
     <>
       <div className="event-container">
         <span className="althea">
-          <h3 className="althea">
+          <h3 className="althea-h3">
             After closing one chapter of four years in the basement of Kitkat
             Club, we are excited to enter new dimensions of OHM Club, with
             beloved friends from Vumantra label and our best resident djs.{" "}
